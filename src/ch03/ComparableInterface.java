@@ -1,5 +1,7 @@
 package ch03;
 
+import javafx.event.EventHandler;
+
 import java.util.Arrays;
 
 interface Comparable<T>{    // T : 타입 파라미터
