@@ -6,6 +6,9 @@ interface IntSequence{
     // 인터페이스의 모든 메서드는 자동으로 public이 된다.
     boolean hasNext();
     int next();
+    default String st(){
+        return null;
+    }
 }
 
 class SquareSequence implements IntSequence{ // IntSequence인터페이스를 구현한 클래스 정의
